@@ -1,0 +1,7 @@
+exportPattern("^[^\\.]")
+import("inaparc")
+importFrom("stats", "cor", "dist", "kmeans", "median", "quantile", "runif")
+importFrom("utils", "head", "tail")
+importFrom("grDevices", "adjustcolor")
+importFrom("graphics", "pairs")
+S3method(summary, ppclust)
