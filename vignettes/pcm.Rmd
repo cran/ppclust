@@ -77,7 +77,7 @@ In order to generate the matrices of cluster prototypes and membership degrees, 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.pcm <- pcm(x, centers=3, alginitv="inofrep")
 ```
-Although the prototypes can be automatically initialized by the the function `pcm`, the users can also supply their own initial matrices as the input arguments of the function. In fact, PCM often suffers from stability problems if it is not initialized with terminal outputs of a corresponding probabilistic algorithm. Therefore, in order to compute some of the input arguments such as the cluster prototypes and mobilization scale parameter it needs fuzzy partitioning results of a probabilistic algorithm, i.e. FCM, (Timm et al, 2004).
+Although the prototypes can be automatically initialized by using the function `pcm`, the users can also supply their own initial matrices as the input arguments of the function. In fact, PCM often suffers from stability problems if it is not initialized with terminal outputs of a corresponding probabilistic algorithm. Therefore, in order to compute some of the input arguments such as the cluster prototypes and mobilization scale parameter it needs fuzzy partitioning results of a probabilistic algorithm, i.e. FCM, (Timm et al, 2004).
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.fcm <- fcm(x, centers=3)
@@ -90,7 +90,7 @@ In general, the squared Euclidean distance metric is used with PCM in order to c
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.pcm <- pcm(x, centers=3, dmetric="euclidean")
 ```
-Although the argument $\eta$, fuzzy exponent is usually choosen as `2` in most of the applications using PCM, users can increase $\eta$ to make the typicaties more strict as follows:
+Although the argument eta ($\eta$), typicality exponent is usually choosen as `2` in most of the applications using PCM, users can increase $\eta$ to higher values in order to make the typicalities more strict as follows:
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.pcm <- pcm(x, centers=3, eta=4)
@@ -100,7 +100,7 @@ res.pcm <- pcm(x, centers=3, eta=4)
 
 ### Clustering Results
 #### Typicality Degrees Matrix
-The typicality degrees matrix is the main output of the function `pcm`. The example code chuck below shows the the top and bottom five rows of the typicality matrix.
+The typicality degrees matrix is the main output of the function `pcm`. The example code chuck below shows the top and bottom five rows of the typicality matrix.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.pcm <- pcm(x, centers=3)
@@ -151,7 +151,7 @@ res.pcm$func.val
 res.pcm$iter
 res.pcm$comp.time
 ```
-Among the outputs from succesive starts of the algorithm, the best solution is obtained from the start giving the minimum value of the objective function, and stored as the the final clustering result of the multiple starts of PCM.
+Among the outputs from succesive starts of the algorithm, the best solution is obtained from the start giving the minimum value of the objective function, and stored as the final clustering result of the multiple starts of PCM.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.pcm$best.start
@@ -173,13 +173,13 @@ There are many ways of visual presentations of the clustering results. One commo
 plotcluster(res.pcm, cp=1, trans=TRUE)
 ```
 
-In the above figure, the plot shows the objects which have typicality degrees than 0.5. In order to filter the objects for different typicality degrees, the  value of `tv` argument can be changed as follows:
+In the above figure, the plot shows the objects which have typicality degrees greater than 0.5. In order to filter the objects for different typicality degrees, the  value of `tv` argument can be changed as follows:
 
 ```{r fig.width=7, fig.height=6}
 plotcluster(res.pcm, cp=1, tv=0.2, trans=TRUE)
 ```
 
-> The details can be viewed on the package manual for for the function `plotcluster`. 
+> The details can be viewed on the package manual for the function `plotcluster`. 
 
 ## Cluster Plot with fviz_cluster
 There are some nice versions of the cluster plots in some of the R packages. One of them is the function `fviz_cluster` of the package '`factoextra`' (Kassambara & Mundt, 2017). In order to use this function for the fuzzy clustering result, first the fuzzy clustering object of `ppclust` should be converted to `kmeans` object by using the `ppclust2` of the package '`ppclust`' as shown in the first line of the code chunk below:
@@ -213,11 +213,12 @@ Krishnapuram, R. & Keller, J.M. (1993). A possibilistic approach to clustering. 
 
 Krishnapuram, R. & Keller, J.M. (1996). The possibilistic c-means algorithm: insights and recommendations. *IEEE Transactions on Fuzzy Systems*, 4(3):385-393.
 
-Timm, H., Borgelt, C., Döring, C. & Kruse, R. (2004). An extension to possibilistic fuzzy cluster analysis. \emph{Fuzzy Sets and Systems}, 147 (1): 3-16.
+Timm, H., Borgelt, C., Döring, C. & Kruse, R. (2004). An extension to possibilistic fuzzy cluster analysis. *Fuzzy Sets and Systems*, 147 (1): 3-16.
 
-Filippone, M., Masulli, F., & Rovetta, S. (2007). Possibilistic clustering in feature space. In \emph{Int. Workshop on Fuzzy Logic and Applications}, pp. 219-226. Springer, Berlin, Heidelberg.
+Filippone, M., Masulli, F., & Rovetta, S. (2007). Possibilistic clustering in feature space. In *Int. Workshop on Fuzzy Logic and Applications*, pp. 219-226. Springer, Berlin, Heidelberg.
+
 Ferraro, M.B. & Giordani, P. (2015). A toolbox for fuzzy clustering using the R programming language. *Fuzzy Sets and Systems*, 279, 1-16. http://dx.doi.org/10.1016/j.fss.2015.05.001
 
 Kassambara, A. & Mundt, F. (2017). factoextra: Extract and Visualize the Results of Multivariate Data Analyses. R package version 1.0.5. https://CRAN.R-project.org/package=factoextra
 
-Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K.(2017).  cluster: Cluster Analysis Basics and Extensions. R package version 2.0.6.
+Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K.(2017).  cluster: Cluster Analysis Basics and Extensions. R package version 2.0.6. https://CRAN.R-project.org/package=cluster

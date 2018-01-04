@@ -192,7 +192,7 @@ res.pfcm$func.val
 res.pfcm$iter
 res.pfcm$comp.time
 ```
-Among the outputs from succesive starts of the algorithm, the best solution is obtained from the start giving the minimum value of the objective function, and stored as the the final clustering result of the multiple starts of PFCM.
+Among the outputs from succesive starts of the algorithm, the best solution is obtained from the start giving the minimum value of the objective function, and stored as the final clustering result of the multiple starts of PFCM.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 res.pfcm$best.start
@@ -279,7 +279,7 @@ Ferraro, M.B. & Giordani, P. (2015). A toolbox for fuzzy clustering using the R 
 
 Kassambara, A. & Mundt, F. (2017). factoextra: Extract and Visualize the Results of Multivariate Data Analyses. R package version 1.0.5. https://CRAN.R-project.org/package=factoextra
 
-Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K.(2017).  cluster: Cluster Analysis Basics and Extensions. R package version 2.0.6.
+Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K.(2017).  cluster: Cluster Analysis Basics and Extensions. R package version 2.0.6. https://CRAN.R-project.org/package=cluster
 
 Pal, N. R., Pal, K. & Bezdek, J. C. (2005). A possibilistic fuzzy c-means clustering algorithm. *IEEE
 Trans. Fuzzy Systems*, 13 (4): 517-530

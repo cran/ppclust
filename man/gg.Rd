@@ -47,7 +47,7 @@ The argument \eqn{\alpha_j}{\alpha_j} is the prior probability for belonging \eq
 
 \eqn{{\alpha_j} = \frac{\sum\limits_{i=1}^n u_{ij}^m}{n}}{{\alpha_j} = \ frac{\sum\limits_{i=1}^n u_{ij}^m}{n}}
 
-The argument \eqn{\alpha_j}{\alpha_j} takes into account the influence of the size of a cluster, and bigger clusters attract more elements (Cruz, 2013).
+The argument \eqn{\alpha_j}{\alpha_j} is used to evaluate the size of a cluster since bigger clusters attract more elements.
 
 \eqn{m}{m} is the fuzzifier to specify the amount of fuzziness for the clustering. Although it is 1 in the original FMLE algorithm (Bezdek & Dunn, 1975) a higher value of it (\eqn{1\leq m\leq \infty}{1\leq m\leq \infty}) can be used to make the partition more fuzzy compensating the exponential term of the distance norm (Balasko et al, 2005).  
 
@@ -91,13 +91,11 @@ Hoeppner, F., Klawonn, F., Kruse, R. & Runkler, T. (1999). \emph{Fuzzy cluster a
 
 Balasko, B., Abonyi, J. & Feil, B. (2005). Fuzzy clustering and data analysis toolbox. Department of Process Eng., Univ. of Veszprem, Veszprem.
 
-Cruz, A. (2013). Cluster Algorithms. <\url{http://equipe.nce.ufrj.br/adriano/fuzzy/transparencias/clusteralgorithms/clusteralgorithms.pdf}>
-
 Bagus, A. F. & Pramana, S. (2016). advclust: Object Oriented Advanced Clustering. R package version 0.4. \url{https://CRAN.R-project.org/package=advclust}
 }
 
 \note{
-Due to the exponential distance norm, this algorithm needs a good initialization since it converges to a near local optimum. So, usually another clustering algorithm, i.e. FCM, is used to initialize the partition matrix \eqn{\mathbf{U}}{\mathbf{U}} (Balasko et al, 2005; Cruz, 2013).
+Due to the exponential distance norm, this algorithm needs a good initialization since it converges to a near local optimum. So, usually another clustering algorithm, i.e. FCM, is used to initialize the partition matrix \eqn{\mathbf{U}}{\mathbf{U}} (Balasko et al, 2005).
 }
 
 \author{

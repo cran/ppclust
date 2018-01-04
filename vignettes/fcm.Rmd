@@ -4,11 +4,15 @@ author: 'Zeynel Cebeci'
 #date: '`r format(Sys.Date(), "%B %d, %Y")`'
 date: '2017-11-20'
 output:
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
+  html_document:
+    theme: yeti
+    highlight: kate
+    toc: true
+    toc_depth: 2
     df_print: paged
+    code_folding: show
     number_sections: true
+    keep_md: true
 vignette: >
   %\VignetteIndexEntry{Partitioning Cluster Analysis with Fuzzy C-Means}
   %\VignetteEngine{knitr::rmarkdown}
@@ -189,10 +193,10 @@ There are many ways of visual representation of the clustering results. One comm
 plotcluster(res.fcm, cp=1, trans=TRUE)
 ```
 
-In the above, clustering result is shown with pairwise scatter plots by using color palette 1 and transparent colors. The details can be viewed on the package manual for for the function '`plotcluster`'.
+In the plot above, clustering result is shown with pairwise scatter plots by using color palette 1 and transparent colors. The details can be viewed on the package manual for the function '`plotcluster`'.
 
 ## Cluster Plot with fviz_cluster
-There are some nice versions of the cluster plots in some of the R packages. One of them is the function `fviz_cluster` of the package '`factoextra`' (Kassambara & Mundt, 2017). In order to use this function for the fuzzy clustering result, first the fuzzy clustering object of `ppclust` should be converted to `kmeans` object by using the `ppclust2` of the package '`ppclust`' as shown in the first line of the code chunk below:
+There are some nice versions of the cluster plots which are available in some of the R packages. One of them is the function `fviz_cluster` of the package '`factoextra`' (Kassambara & Mundt, 2017). In order to use this function for the fuzzy clustering result, first the fuzzy clustering object of `ppclust` should be converted to `kmeans` object by using the `ppclust2` of the package '`ppclust`' as shown in the first line of the code chunk as follows:
 
 ```{r fig.width=7, fig.height=6}
 res.fcm2 <- ppclust2(res.fcm, "kmeans")
@@ -243,4 +247,4 @@ Ferraro, M.B. & Giordani, P. (2015). A toolbox for fuzzy clustering using the R 
 
 Kassambara, A. & Mundt, F. (2017). factoextra: Extract and Visualize the Results of Multivariate Data Analyses. R package version 1.0.5. https://CRAN.R-project.org/package=factoextra
 
-Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K.(2017).  cluster: Cluster Analysis Basics and Extensions. R package version 2.0.6.
+Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K.(2017).  cluster: Cluster Analysis Basics and Extensions. R package version 2.0.6. https://CRAN.R-project.org/package=cluster
