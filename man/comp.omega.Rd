@@ -23,7 +23,7 @@ comp.omega(d, u, m=2, pco=NULL, K=1)
 }
 
 \details{
-The vector \eqn{\vec{\Omega}}{\vec{\Omega}} is called possibilistic penalty term and control the variance of the clusters (Gosztolya & Szilagyi, 2015). In general, it is computed by using the fuzzy intra cluster distances from a previous run of FCM. This mobilization scale parameter related with the spread of clusters contains the distance values at where membership degrees becomes 0.5 for each cluster (Timm et al, 2004; Wachs et al, 2006; Alamelumangai, 2014). 
+The vector \eqn{\vec{\Omega}}{\vec{\Omega}} is called possibilistic penalty term that controls the variance of clusters (Gosztolya & Szilagyi, 2015). In general, it is computed by using the fuzzy intra cluster distances from a previous run of FCM. This vector of mobilization scale parameters related with the spread of clusters contains the distance values at where membership degrees becomes 0.5 for each cluster (Timm et al, 2004; Wachs et al, 2006; Alamelumangai, 2014). 
 
 \deqn{\vec{\Omega} = K \frac{\sum\limits_{i=1}^n u_{ij}^m \; d^2(\vec{x}_i,\vec{v}_j)}{\sum\limits_{i=1}^n u_{ij}^m}\; ;\; 1\leq j\leq k}{\vec{\Omega} = K \frac{\sum\limits_{i=1}^n u_{ij}^m \; d^2(\vec{x}_i,\vec{v}_j)}{\sum\limits_{i=1}^n u_{ij}^m}\; ;\; 1\leq j\leq k}
 

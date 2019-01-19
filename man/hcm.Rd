@@ -100,6 +100,7 @@ MacQueen, J.B. (1967). Some methods for classification and analysis of multivari
 }
 
 \examples{
+\dontrun{
 # Load dataset iris 
 data(iris)
 x <- iris[,-5]
@@ -114,6 +115,7 @@ res.hcm <- hcm(x, centers=v)
 res.hcm$cluster
 summary(res.hcm$cluster)
 plot(x, col=res.hcm$cluster, pch=16)
+}
 }
 
 \concept{hard c-means clustering}
