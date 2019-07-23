@@ -140,8 +140,8 @@ fcm <- function(x, centers, memberships, m=2,
             if(any(d[i,] == 0))
               u[i,] <- rep(1/k, k)
             else    
-              u[i,j] <- 1 / (sum(d[i,j]/d[i,])^((2/dt)/(m-1)))
-        v <- t(u^m) %*% x / colSums(u^m)
+              u[i, j] <- 1/(sum((d[i, j]/d[i, ])^((2/dt)/(m - 1))))
+             v <- t(u^m) %*% x / colSums(u^m)
       }
     )
     comp.time[start.idx] <- cputime[1]

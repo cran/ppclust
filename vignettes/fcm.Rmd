@@ -9,21 +9,23 @@ output:
     highlight: kate
     toc: true
     toc_depth: 2
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
     df_print: paged
     code_folding: show
     number_sections: true
-    keep_md: true
 vignette: >
-  %\VignetteIndexEntry{Partitioning Cluster Analysis with Fuzzy C-Means}
+  %\VignetteIndexEntry{Partitioning Cluster Analysis Using Fuzzy C-Means}
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+  %\VignetteEncoding[UTF-8]{inputenc}
 ---
 <style>
 body {
 text-align: justify}
 </style>
 
-#PREPARING FOR THE ANALYSIS
+# PREPARING FOR THE ANALYSIS
 ***
 ## Install and load the package ppclust
 This vignette is designed to be used with the ppclust package. You can download the recent version of the package '`ppclust`' from CRAN with the following command:
