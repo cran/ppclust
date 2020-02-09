@@ -55,9 +55,9 @@ pcm <- function(x, centers, memberships, eta=2, K=1, omega, oftype=1,
   if(!is.matrix(centers))
     centers <- matrix(nrow=k, ncol=p, eval(compv))
   if(!missing(memberships)){
-    if(class(memberships) == "data.frame")
+    if(is(memberships, "data.frame"))
       memberships <- as.matrix(memberships)
-    if(class(memberships) != "matrix")
+    if(!is(memberships, "matrix"))
       stop("The initial membership degrees matrix is not a numeric data.frame or matrix")
   }else{
     memberships <- matrix(nrow = n, ncol = k, eval(compu))

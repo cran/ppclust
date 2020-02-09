@@ -1,7 +1,6 @@
 ---
 title: 'Partitioning Cluster Analysis Using Fuzzy C-Means'
 author: 'Zeynel Cebeci'
-#date: '`r format(Sys.Date(), "%B %d, %Y")`'
 date: '2017-11-20'
 output:
   html_document:
@@ -21,8 +20,7 @@ vignette: >
   %\VignetteEncoding[UTF-8]{inputenc}
 ---
 <style>
-body {
-text-align: justify}
+body {text-align: justify}
 </style>
 
 # PREPARING FOR THE ANALYSIS
@@ -237,7 +235,7 @@ cat("Modified Partition Coefficient: ", idxmpc)
 cat("Fuzzy Silhouette Index: ", idxsf)
 ```	 
 
-#References{-}
+# References{-}
 ***
 Anderson, E. (1935). The irises of the GASPE peninsula, in *Bull. Amer. Iris Soc.*, 59: 2-5.
 

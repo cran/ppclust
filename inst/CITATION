@@ -1,13 +1,16 @@
-year <- sub("-.*", "", meta$Date) 
-note <- sprintf("R package version %s", meta$Version)
-textVersion = paste0("Cebeci, Z., Yildiz, F., Kavlak, A.T., Cebeci, C. & Onder, H. (", year,"). ppclust: Probabilistic and Possibilistic Cluster Analysis. ", note, ", URL https://CRAN.R-project.org/package=ppclust")
-bibentry(textVersion, bibtype = "Manual",
- title = "{ppclust}: Probabilistic and Possibilistic Cluster Analysis",
- author = c(person("Zeynel", "Cebeci"),
- person("Figen", "Yildiz"),
- person("A. Tuna", "Kavlak"),
- person("Cagatay", "Cebeci"),
- person("Hasan", "Onder")),
- year = year,
- note = note, 
- url = "https://CRAN.R-project.org/package=ppclust")
+citHeader("To cite the package 'ppclust' in publications use:")
+citEntry(entry = "Article",
+ title = "Comparison of Internal Validity Indices for Fuzzy Clustering",
+ author = c(person("Zeynel", "Cebeci")),
+ journal = "Journal of Agricultural Informatics",
+ year = "2019",
+ vol = "10",
+ number = 2,
+ pages = "1-14", 
+ doi = "10.17700/jai.2019.10.2.537",
+
+textVersion = paste("Cebeci, Z. (2018),",
+   "Comparison of internal validity indices for fuzzy clustering.", 
+   "Journal of Agricultural Informatics, 10(2):1-14",
+   "doi: 10.17700/jai.2019.10.2.537")
+)

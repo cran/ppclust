@@ -70,29 +70,40 @@ The membership degrees are the measures specifying the amount of belongingness o
 }
 
 \references{
-Gustafson, D. E. & Kessel, W. C. (1979). Fuzzy clustering with a fuzzy covariance matrix. In \emph{Proc. of IEEE Conf. on Decision and Control including the 17th Symposium on Adaptive Processes}, San Diego. pp. 761-766. <doi:10.1109/CDC.1978.268028>
-
-Bezdek J.C. (1981). \emph{Pattern recognition with fuzzy objective function algorithms}. Plenum, NY. <\href{https://isbnsearch.org/isbn/0306406713}{ISBN:0306406713}>
-
-Gath, I. & Geva, A.B. (1989). Unsupervised optimal fuzzy clustering. \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 11 (7): 773-781. <doi:10.1109/34.192473>
-
-Pal, N.R., Pal, K., & Bezdek, J.C. (1997). A mixed c-means clustering model. In \emph{Proc. of the 6th IEEE Int. Conf. on Fuzzy Systems}, 1, pp. 11-21. <doi:10.1109/FUZZY.1997.616338>
 
 Babuska, R. (2001). Fuzzy and neural control. DISC Course Lecture Notes. Delft University of Technology. Delft, the Netherlands. <\href{https://tr.scribd.com/document/209211977/Fuzzy-and-Neural-Control}{https://tr.scribd.com/document/209211977/Fuzzy-and-Neural-Control}>.
 
-Timm, H., Borgelt, C., Doring, C. & Kruse, R. (2004). An extension to possibilistic fuzzy cluster analysis. \emph{Fuzzy Sets and Systems}, 147 (1): 3-16. <doi:10.1016/j.fss.2003.11.009>
-
 Balasko, B., Abonyi, J. & Feil, B. (2005). Fuzzy clustering and data analysis toolbox. Department of Process Eng., Univ. of Veszprem, Veszprem. 
+
+Bezdek, J.C. (1981). \emph{Pattern recognition with fuzzy objective function algorithms}. Plenum, NY. <\href{https://isbnsearch.org/isbn/0306406713}{ISBN:0306406713}>
+
+Cebeci, Z. & Yildiz, F. (2015). Bulanik C-Ortalamalar algoritmasýnýn farklý kume buyuklukleri icin hesaplama performansi ve kumeleme gecerliliginin karsilastirilmasi, In Proc.pf \emph{9. Ulusal Zootekni Bilim Kongresi}, Sep. 2015, Konya. pp. 227-239. doi: \href{https://doi.org/10.13140/RG.2.1.2909.9288}{10.13140/RG.2.1.2909.9288}  
+ 
+Cebeci, Z., Kavlak, A.T. & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results, in Proc. of \emph{2017 Int. Artificial Intelligence & Data Processing Symposium}, IEEE. pp. 1-7. doi: \href{https://doi.org/10.1109/IDAP.2017.8090183}{10.1109/IDAP.2017.8090183}  
+ 
+Cebeci, Z. (2018). Initialization of membership degree matrix for fast convergence of Fuzzy C-Means clustering, in Proc. of \emph{2018 Int.Conf.on Artificial Intelligence & Data Processing}, pp. 1-5. IEEE. doi: \emph{https://doi.org/10.1109/IDAP.2018.8620920}{10.1109/IDAP.2018.8620920}  
+ 
+Cebeci, Z. & Cebeci, C. (2018) kpeaks: an R package for quick selection of k for cluster analysis, in Proc. of \emph{2018 Int. Conf. on Artificial Intelligence & Data Processing}, pp. 1-7, IEEE. doi: \href{https://doi.org/10.1109/IDAP.2018.8620896}{10.1109/IDAP.2018.8620896} 
+
+Cebeci, Z. (2019). Comparison of internal validity indices for fuzzy clustering. \emph{Journal of Agricultural Informatics}, 10(2):1-14. doi: \href{https://doi.org/10.17700/jai.2019.10.2.537}{10.17700/jai.2019.10.2.537}
+ 
+Correa, C., Valero, C., Barreiro, P., Diago, M. P., & Tardáguila, J. (2011). A comparison of fuzzy clustering algorithms applied to feature extraction on vineyard. In \emph{Proc. of the 14th Conf. of the Spanish Assoc. for Artificial Intelligence}. <\url{http://oa.upm.es/9246/}>.
+
+Gath, I. & Geva, A.B. (1989). Unsupervised optimal fuzzy clustering. \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 11 (7): 773-781. <doi:10.1109/34.192473>
+
+Gustafson, D. E. & Kessel, W. C. (1979). Fuzzy clustering with a fuzzy covariance matrix. In \emph{Proc. of IEEE Conf. on Decision and Control including the 17th Symposium on Adaptive Processes}, San Diego. pp. 761-766. <doi:10.1109/CDC.1978.268028>
+
+Pal, N.R., Pal, K., & Bezdek, J.C. (1997). A mixed c-means clustering model. In \emph{Proc. of the 6th IEEE Int. Conf. on Fuzzy Systems}, 1, pp. 11-21. <doi:10.1109/FUZZY.1997.616338>
 
 Pal, N.R., Pal, S.K., Keller,J.M. & Bezdek, J.C. (2005). A possibilistic fuzzy c-means clustering algorithm. \emph{IEEE Transactions on Fuzzy Systems}, 13 (4): 517-530. <doi: 10.1109/TFUZZ.2004.840099>
 
 Tan, P. N., Steinbach, M., & Kumar, V. (2006). Cluster analysis: Basic concepts and algorithms. In \emph{Introduction to Data Mining}. Pearson Addison Wesley. <\url{http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf}>
 
+Timm, H., Borgelt, C., Doring, C. & Kruse, R. (2004). An extension to possibilistic fuzzy cluster analysis. \emph{Fuzzy Sets and Systems}, 147 (1): 3-16. <doi:10.1016/j.fss.2003.11.009>
+
 Yang, M. S. & Wu, K. L. (2006). Unsupervised possibilistic clustering. \emph{Pattern Recognition}, 39(1): 5-21. <doi:10.1016/j.patcog.2005.07.005>
 
 Wu, X., Wu, B., Sun, J. & Fu, H. (2010). Unsupervised possibilistic fuzzy clustering. \emph{J. of Information & Computational Sci.}, 7 (5): 1075-1080.
-
-Correa, C., Valero, C., Barreiro, P., Diago, M. P., & Tardáguila, J. (2011). A comparison of fuzzy clustering algorithms applied to feature extraction on vineyard. In \emph{Proc. of the 14th Conf. of the Spanish Assoc. for Artificial Intelligence}. <\url{http://oa.upm.es/9246/}>.
 }
 
 \author{Zeynel Cebeci, Figen Yildiz, A. Tuna Kavlak, Cagatay Cebeci & Hasan Onder}

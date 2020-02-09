@@ -267,7 +267,7 @@ cat("Partition Coefficient: ", idxpc)
 cat("Modified Partition Coefficient: ", idxmpc)
 cat("Fuzzy Silhouette Index: ", idxsf)
 ```	 
-#References{-}
+# References{-}
 ***
 Anderson, E. (1935). The irises of the GASPE peninsula, in *Bull. Amer. Iris Soc.*, 59: 2-5.
 
