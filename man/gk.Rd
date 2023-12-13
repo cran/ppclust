@@ -103,13 +103,13 @@ The objective function of GK is minimized by using the following update equation
 }
 
 \references{
-Arthur, D. & Vassilvitskii, S. (2007). K-means++: The advantages of careful seeding, in \emph{Proc. of the 18th Annual ACM-SIAM Symposium on Discrete Algorithms}, pp. 1027-1035. <\url{http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf}>
+Arthur, D. & Vassilvitskii, S. (2007). K-means++: The advantages of careful seeding, in \emph{Proc. of the 18th Annual ACM-SIAM Symposium on Discrete Algorithms}, pp. 1027-1035. \url{http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf}
 
-Gustafson, D. E. & Kessel, W. C. (1979). Fuzzy clustering with a fuzzy covariance matrix. In \emph{Proc. of IEEE Conf. on Decision and Control including the 17th Symposium on Adaptive Processes}, San Diego. pp. 761-766. <doi:10.1109/CDC.1978.268028>
+Gustafson, D. E. & Kessel, W. C. (1979). Fuzzy clustering with a fuzzy covariance matrix. In \emph{Proc. of IEEE Conf. on Decision and Control including the 17th Symposium on Adaptive Processes}, San Diego. pp. 761-766. \doi{10.1109/CDC.1978.268028}
 
-Babuska, R. (2001). Fuzzy and neural control. DISC Course Lecture Notes. Delft University of Technology. Delft, the Netherlands. <\href{https://tr.scribd.com/document/209211977/Fuzzy-and-Neural-Control}{https://tr.scribd.com/document/209211977/Fuzzy-and-Neural-Control}>.
+Babuska, R. (2001). Fuzzy and neural control. DISC Course Lecture Notes. Delft University of Technology. Delft, the Netherlands. \href{https://tr.scribd.com/document/209211977/Fuzzy-and-Neural-Control}{https://tr.scribd.com/document/209211977/Fuzzy-and-Neural-Control}.
 
-Correa, C., Valero, C., Barreiro, P., Diago, M. P., & Tard·guila, J. (2011). A comparison of fuzzy clustering algorithms applied to feature extraction on vineyard. In \emph{Proc. of the 14th Conf. of the Spanish Assoc. for Artificial Intelligence}. <\url{http://oa.upm.es/9246/}>
+Correa, C., Valero, C., Barreiro, P., Diago, M. P., & Tard√°guila, J. (2011). A comparison of fuzzy clustering algorithms applied to feature extraction on vineyard. In \emph{Proc. of the 14th Conf. of the Spanish Assoc. for Artificial Intelligence}. \url{http://oa.upm.es/9246/}
 }
 
 \author{

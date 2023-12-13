@@ -2,7 +2,7 @@
 \alias{gg}
 \title{Gath-Geva Clustering Algorithm}
 \description{
-Partitions a numeric data set by using the Gath-Geva (GG) clustering algorithm (Gath & Geva, 1989). The function \code{gg} is based on the code in \code{\link[advclust]{fuzzy.GG}} function of the package \pkg{advclust} by Bagus and Pramana (2016) with some more extended initialization methods and distance metrics.
+Partitions a numeric data set by using the Gath-Geva (GG) clustering algorithm (Gath & Geva, 1989). The function \code{gg} is based on the code in \code{fuzzy.GG} function of the package \pkg{advclust} by Bagus and Pramana (2016) with some more extended initialization methods and distance metrics.
 }
 \usage{
 gg(x, centers, memberships, m=2, ggversion="simple", 

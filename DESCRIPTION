@@ -1,9 +1,9 @@
 Package: ppclust
 Type: Package
 Title: Probabilistic and Possibilistic Cluster Analysis
-Version: 1.1.0
+Version: 1.1.0.1
 Date: 2020-02-08
-Encoding: latin1
+Encoding: UTF-8
 Authors@R: c(person("Zeynel", "Cebeci", email = "zcebeci@cukurova.edu.tr", role = c("aut", "cre")), 
      person("Figen","Yildiz", role = "aut", email = "yildizf@cukurova.edu.tr"),
      person("Alper Tuna","Kavlak", role = "aut", email = "alpertunakavlak@gmail.com"),
@@ -23,6 +23,6 @@ Imports: graphics, grDevices, inaparc, MASS, stats, utils, methods
 Suggests: cluster, factoextra, fclust, knitr, rmarkdown, vegclust
 VignetteBuilder: knitr, rmarkdown
 NeedsCompilation: no
-Packaged: 2020-02-09 09:03:39 UTC; user1
+Packaged: 2023-12-13 17:18:57 UTC; hornik
 Repository: CRAN
-Date/Publication: 2020-02-09 10:30:02 UTC
+Date/Publication: 2023-12-13 17:27:57 UTC

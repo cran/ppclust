@@ -77,17 +77,17 @@ Balasko, B., Abonyi, J. & Feil, B. (2005). Fuzzy clustering and data analysis to
 
 Bezdek, J.C. (1981). \emph{Pattern recognition with fuzzy objective function algorithms}. Plenum, NY. <\href{https://isbnsearch.org/isbn/0306406713}{ISBN:0306406713}>
 
-Cebeci, Z. & Yildiz, F. (2015). Bulanik C-Ortalamalar algoritmasýnýn farklý kume buyuklukleri icin hesaplama performansi ve kumeleme gecerliliginin karsilastirilmasi, In Proc.pf \emph{9. Ulusal Zootekni Bilim Kongresi}, Sep. 2015, Konya. pp. 227-239. doi: \href{https://doi.org/10.13140/RG.2.1.2909.9288}{10.13140/RG.2.1.2909.9288}  
+Cebeci, Z. & Yildiz, F. (2015). Bulanik C-Ortalamalar algoritmasÃ½nÃ½n farklÃ½ kume buyuklukleri icin hesaplama performansi ve kumeleme gecerliliginin karsilastirilmasi, In Proc.pf \emph{9. Ulusal Zootekni Bilim Kongresi}, Sep. 2015, Konya. pp. 227-239. \doi{10.13140/RG.2.1.2909.9288}
  
-Cebeci, Z., Kavlak, A.T. & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results, in Proc. of \emph{2017 Int. Artificial Intelligence & Data Processing Symposium}, IEEE. pp. 1-7. doi: \href{https://doi.org/10.1109/IDAP.2017.8090183}{10.1109/IDAP.2017.8090183}  
+Cebeci, Z., Kavlak, A.T. & Yildiz, F. (2017). Validation of fuzzy and possibilistic clustering results, in Proc. of \emph{2017 Int. Artificial Intelligence & Data Processing Symposium}, IEEE. pp. 1-7. \doi{10.1109/IDAP.2017.8090183}
  
-Cebeci, Z. (2018). Initialization of membership degree matrix for fast convergence of Fuzzy C-Means clustering, in Proc. of \emph{2018 Int.Conf.on Artificial Intelligence & Data Processing}, pp. 1-5. IEEE. doi: \emph{https://doi.org/10.1109/IDAP.2018.8620920}{10.1109/IDAP.2018.8620920}  
+Cebeci, Z. (2018). Initialization of membership degree matrix for fast convergence of Fuzzy C-Means clustering, in Proc. of \emph{2018 Int.Conf.on Artificial Intelligence & Data Processing}, pp. 1-5. IEEE. \doi{10.1109/IDAP.2018.8620920}
  
-Cebeci, Z. & Cebeci, C. (2018) kpeaks: an R package for quick selection of k for cluster analysis, in Proc. of \emph{2018 Int. Conf. on Artificial Intelligence & Data Processing}, pp. 1-7, IEEE. doi: \href{https://doi.org/10.1109/IDAP.2018.8620896}{10.1109/IDAP.2018.8620896} 
+Cebeci, Z. & Cebeci, C. (2018) kpeaks: an R package for quick selection of k for cluster analysis, in Proc. of \emph{2018 Int. Conf. on Artificial Intelligence & Data Processing}, pp. 1-7, IEEE. \doi{10.1109/IDAP.2018.8620896}
 
-Cebeci, Z. (2019). Comparison of internal validity indices for fuzzy clustering. \emph{Journal of Agricultural Informatics}, 10(2):1-14. doi: \href{https://doi.org/10.17700/jai.2019.10.2.537}{10.17700/jai.2019.10.2.537}
+Cebeci, Z. (2019). Comparison of internal validity indices for fuzzy clustering. \emph{Journal of Agricultural Informatics}, 10(2):1-14. \doi{10.17700/jai.2019.10.2.537}
  
-Correa, C., Valero, C., Barreiro, P., Diago, M. P., & Tardáguila, J. (2011). A comparison of fuzzy clustering algorithms applied to feature extraction on vineyard. In \emph{Proc. of the 14th Conf. of the Spanish Assoc. for Artificial Intelligence}. <\url{http://oa.upm.es/9246/}>.
+Correa, C., Valero, C., Barreiro, P., Diago, M. P., & TardÃ¡guila, J. (2011). A comparison of fuzzy clustering algorithms applied to feature extraction on vineyard. In \emph{Proc. of the 14th Conf. of the Spanish Assoc. for Artificial Intelligence}. <\url{http://oa.upm.es/9246/}>.
 
 Gath, I. & Geva, A.B. (1989). Unsupervised optimal fuzzy clustering. \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 11 (7): 773-781. <doi:10.1109/34.192473>
 
